@@ -1,0 +1,85 @@
+.listContainer{
+    display: flex;
+    justify-content: center;
+     margin-top: 20px;
+}
+.listWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.listSearch{
+    margin: 10px;
+    background-color: #febb02;
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    box-sizing: border-box;
+    top: 10px;
+    height: fit-content;
+}
+.listResult{
+    flex: 3;
+}
+.lsTitle{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.lsItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 10px;
+}
+.lsItem>label{
+    font-size: 16px;
+
+}
+.lsItem>input{
+    height: 30px;
+    border: none;
+    padding: 5px;
+}
+.lsItem>span{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+.lsOptionItem{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    color: gray;
+    font-size: 12px;
+}
+.isOptionInput{
+    width: 50px;
+
+}
+.listSearch>button{
+    padding: 10px;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px)  {
+    .collapse-options{
+        display: none;
+    } 
+    .listSearch{
+        position:static;
+    }
+}
+.rdrCalendarWrapper{
+    font-size: 11px;
+}

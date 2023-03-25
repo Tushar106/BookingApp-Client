@@ -1,0 +1,41 @@
+.rtitle{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.rdesc{
+    text-transform: capitalize;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.container2{
+    flex: 1;
+    display: flex;
+    gap: 12px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.room{
+    display: flex;
+    flex-direction: column;
+}
+.room>label{
+    font-size: 10px;
+}
+.rdesc{
+    font-size: 15px;
+}
+.rmax{
+    font-size: 13px;
+}
+.container{
+    color: rgb(1, 1, 1);
+}

@@ -1,0 +1,35 @@
+.navbar{
+    /* background: rgb(36,252,181); */
+    /* height: 50px; */
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+/* background: linear-gradient(90deg, rgba(36,252,181,1) 0%, rgba(67,238,255,1) 42%, rgba(0,125,255,0.8660714285714286) 100%); */
+/* background: #8FE3CF; */
+/* background-color: blue; */
+position: sticky;
+top: 0;
+backdrop-filter: blur(2px);
+z-index: 100;
+}
+.navContainer{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: large;
+    font-family: 'Gloock', serif;
+
+}
+.navButton{
+    margin-left: 20px;
+    padding: 5px 10px;
+    border: none;
+    /* background-color: #007dff; */
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
